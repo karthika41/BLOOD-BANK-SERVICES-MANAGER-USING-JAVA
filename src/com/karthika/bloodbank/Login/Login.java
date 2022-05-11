@@ -25,7 +25,7 @@ public class Login extends JFrame implements MouseListener, ActionListener {
 
 	public Login() {
 
-		super("BBMS : Admin com.arnabb.bbms.Login.Login");
+		super("BBMS : Admin com.karthika.bloodbank.Login.Login");
 		this.setSize(700,600);
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -85,7 +85,7 @@ public class Login extends JFrame implements MouseListener, ActionListener {
 		backButton.addActionListener(this);
 		panel.add(backButton);
 		
-		/*String []s = {"Adminimistrator", "com.arnabb.bbms.Donor.Donor"};
+		/*String []s = {"Adminimistrator", "com.karthika.bloodbank.Donor.Donor"};
 		combo = new JComboBox(s);
 		combo.setBounds(450,250,150,35);
 		panel.add(combo);*/
